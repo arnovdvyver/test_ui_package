@@ -1,0 +1,36 @@
+{
+  "name": "test_ui_package",
+  "version": "0.0.1",
+  "description": "A test React Lib",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "@types/react": "^17.0.2",
+    "rollup": "^3.29.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.13.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

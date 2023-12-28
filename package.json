@@ -1,5 +1,5 @@
 {
-  "name": "test_ui_package",
+  "name": "@arnovdvyver/test_ui_package",
   "version": "0.0.1",
   "description": "A test React Lib",
   "type": "module",
@@ -32,5 +32,8 @@
     "@emotion/styled": "^11.10.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/arnovdvyver"
   }
 }
